@@ -1,0 +1,14 @@
+# note: You need change the value of points to circle the number in the image
+# the widow default size is 771,1396
+LEFT_NUMBER_X1 = 220
+LEFT_NUMBER_X2 = 350
+LEFT_NUMBER_Y1 = 330
+LEFT_NUMBER_Y2 = 430
+
+RIGHT_NUMBER_X1 = 410
+RIGHT_NUMBER_X2 = 570
+RIGHT_NUMBER_Y1 = 330
+RIGHT_NUMBER_Y2 = 430
+
+WINDOW_DEFAULT_WIDTH = 771
+WINDOW_DEFAULT_HEIGHT = 1396
