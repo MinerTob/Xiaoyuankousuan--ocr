@@ -2,7 +2,7 @@
 # 1. 读取屏幕上的题目
 # 2. 识别题目
 # 3. 计算题目
-# 4. 鼠标模拟输出答案
+# 4. 键盘模拟输出答案
 
 from get_number import get_number
 from solve import Solve
