@@ -24,12 +24,8 @@
     pip install -r requirements.txt
     ```
 
-4. 安装完成后，还需修改tesseract安装路径
-
-    ```python
-    pytesseract.pytesseract.tesseract_cmd = r'D:\Tesseract-OCR\tesseract.exe'
-    # 将上面的路径修改为你自己的tesseract安装路径
-    ```
+4. 安装完成后，把Tesseract-OCR文件夹拖动到根目录下，如图所示：
+    ![UI](./images/UI6.png)
 
 ### 2.3 运行代码
 
