@@ -35,7 +35,7 @@
     ![UI](./images/UI2.png)
     ![UI](./images/UI3.png)
     ![UI](./images/UI4.png)
-2.启动小猿口算，进入到答题界面。
+2. 启动小猿口算，进入到答题界面。
     ![UI](./images/UI5.png)
 3. 使用命令行进入到代码库的根目录，执行以下命令：
 
