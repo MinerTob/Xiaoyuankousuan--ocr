@@ -8,8 +8,16 @@ from get_number import get_number
 from solve import Solve
 import cv2
 import pytesseract
+import os
 
-pytesseract.pytesseract.tesseract_cmd = r"D:\Tesseract-OCR\tesseract.exe"
+# 获取当前脚本所在的目录路径
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
+# 构造相对路径指向 Tesseract 可执行文件
+tesseract_cmd = os.path.join(base_dir, '..', 'Tesseract-OCR', 'tesseract.exe')
+
+# 设置 pytesseract 的 tesseract_cmd
+pytesseract.pytesseract.tesseract_cmd = tesseract_cmd
 
 if __name__ == "__main__":
     solve = Solve()
@@ -19,4 +27,3 @@ if __name__ == "__main__":
             solve.solve(left_number_img, right_number_img, window)
         if cv2.waitKey(1) & 0xFF == ord("q"):
             break
-   
