@@ -84,9 +84,6 @@ class Solve:
             elif operation == ">":
                 keyboard.press('d')
                 keyboard.release('d')
-            elif operation == "=":
-                keyboard.press('w')
-                keyboard.release('w')
 
         if left_num == 0 and right_num == 0:
             # 未识别出任何数字
