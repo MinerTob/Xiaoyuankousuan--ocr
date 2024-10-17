@@ -11,7 +11,8 @@
 * 本脚本使用了**MuMu模拟器12**：[MuMu模拟器12](https://mumu.163.com/)
 * 以及小猿口算的apk，可在浏览器搜索**小猿口算apk**关键字下载，下载完成后只需将其拖入模拟器即可自动安装。
 
-### 2.15 如果你对python并不感兴趣，但又想AI炸鱼，可以试试下载Release版本的小猿口算-ocr，下载地址：https://github.com/MinerTob/Xiaoyuankousuan--ocr/releases，安装后先运行MUMU模拟器，然后打开小猿口算，接着再运行小猿口算-ocr，这样即使你是编程小白，也可以轻松上手。
+### 2.15 如果你对python并不感兴趣，但又想AI炸鱼，可以试试下载Release版本的小猿口算-ocr，下载地址：https://github.com/MinerTob/Xiaoyuankousuan--ocr/releases
+安装后先运行MUMU模拟器，然后打开小猿口算，接着再运行小猿口算-ocr，这样即使你是编程小白，也可以轻松上手。
 
 ### 2.2 安装python环境（非直装版用户或想了解项目内核的码农看过来）
 
