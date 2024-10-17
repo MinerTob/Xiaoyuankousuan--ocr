@@ -11,7 +11,9 @@
 * 本脚本使用了**MuMu模拟器12**：[MuMu模拟器12](https://mumu.163.com/)
 * 以及小猿口算的apk，可在浏览器搜索**小猿口算apk**关键字下载，下载完成后只需将其拖入模拟器即可自动安装。
 
-### 2.2 安装python环境
+### 2.15 如果你对python并不感兴趣，但又想AI炸鱼，可以试试下载Release版本的小猿口算-ocr，下载地址：https://github.com/MinerTob/Xiaoyuankousuan--ocr/releases，安装后先运行MUMU模拟器，然后打开小猿口算，接着再运行小猿口算-ocr，这样即使你是编程小白，也可以轻松上手。
+
+### 2.2 安装python环境（非直装版用户或想了解项目内核的码农看过来）
 
 1. 本项目采用了python3.12.5开发，建议安装python3.12.5及以上版本。
 2. 本项目使用了tesseract文本识别(OCR)引擎，需要下载tesseract-ocr-w64-setup-v5.0.0-alpha.20210506.exe安装包，下载地址：[tesseract-ocr-w64-setup-v5.0.0-alpha.20210506.exe](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20210506.exe)。注意下载完成后还需要修改**环境变量**，将tesseract的安装路径添加到系统环境变量中。
